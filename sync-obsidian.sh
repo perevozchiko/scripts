@@ -1,6 +1,6 @@
 #!/bin/bash
 currentPath=$(pwd)
-obsidianPath=$0
+obsidianPath=$1
 date=$(date '+%Y-%m-%d %H:%M:%S')
 cd $obsidianPath 
 git add .
