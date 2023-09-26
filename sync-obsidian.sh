@@ -1,10 +1,10 @@
 #!/bin/bash
 currentPath=$(pwd)
 obsidianPath=$0
-now=$(date + "yy.mm.dd")
+date=$(date '+%Y-%m-%d %H:%M:%S')
 cd $obsidianPath 
 git add .
-git commit -am "work-macbook sync obsidian notes: $now"
+git commit -am "work-macbook sync obsidian notes: $date"
 git pull --rebase
 git push
 git status
