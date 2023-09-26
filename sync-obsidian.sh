@@ -1,7 +1,7 @@
 #!/bin/bash
 currentPath=$(pwd)
 obsidianPath=$0
-now=$(date + "YY.mm.dd")
+now=$(date + "yy.mm.dd")
 cd $obsidianPath 
 git add .
 git commit -am "work-macbook sync obsidian notes: $now"
